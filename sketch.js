@@ -40,7 +40,7 @@ function draw() {
 	// textAlign(LEFT);
 	// text(confiaza, 10, height - 4);
 
-	if (etiqueta == 'batman') {
+	if (etiqueta == 'batman' && confiaza > 0.9) {
 		filter(INVERT);
 		filter(GRAY);
 		fill(255);
